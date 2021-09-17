@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin: 0;
+	padding: 0;
+	width: 100vh;
+	position: absolute;
+	background-color: black;
+	overflow: hidden;
+}
+
+.container
+{
+	width:4800px;
+	height: 100%;
+	
+}
+.noidung
+{
+	width: 1600px;
+	height: 100%;
+	color: aliceblue;
+	font-size: 35pt;
+	float: left;
+	border: 1px solid #000000;
+	padding: 3%;
+	box-sizing: border-box;
+	
+}
+
+
+.menu 
+{
+	width: 100%;
+	height: 60px;
+	
+	padding: 20px;
+	box-sizing: border-box;
+	position: fixed;
+	
+}
+.menu a
+{
+	color: aliceblue;
+	text-decoration: none;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16pt;
+}
